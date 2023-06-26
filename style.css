@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 0.6fr 0.4fr;
+}
+
+.img-side {
+  width: 100%;
+}
+
+.model-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
