@@ -3,41 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Base Apparel</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <script defer src="./script.js"></script>
-
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
-  <main class="grid-container">
-    <div class="newsletter-side-container">
-      <div class="brand">
-        <img src="./images/logo.svg" alt="brand logo" class="logo-img">
-      </div>
-      <div class="text-container">
-        <p class="coming-text">
-          <span class="were-part">we're</span> coming soon
-        </p>
-        <p class="introduction-text">
-          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
-        </p>
-      </div>
-      <div class="form-container">
-        <form action="./" method="get">
-          <input type="email" name="email" id="email" aria-label="Email Address" placeholder="Email Address">
-          <button type="submit" id="btn-submit">></button>
-        </form>
-      </div>
+
+  <div class="hero">
+    <div class="logo-container container">
+      <img src="./images/logo.svg" alt="base apparel" class="logo">
     </div>
-    <div class="img-side">
-      <img src="./images/hero-desktop.jpg" alt="image of model" class="model-img">
+    <div class="hero-text container">
+      <h1><span class="accent">we're</span><br>coming<br>soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our lanuch deals.</p>
+      <form action="">
+        <div class="form-content container">
+          <input type="email" name="email" id="email" class="input-email" placeholder="Email Address">
+          <button type="submit" class="btn-submit">
+            <img src="./images/icon-arrow.svg" alt="arrow icon" class="arrow">
+          </button>
+        </div>
+      </form>
     </div>
-  </main>
+    <div class="hero-img">
+      <img src="./images/hero-desktop.jpg" alt="woman with her hand held high with flowers in the background">
+    </div>
+  </div>
 </body>
 </html>
